@@ -26,6 +26,7 @@ html, * {
     align-items: center;
     gap: 8px;
     padding: 0px;
+    position: relative;
 }
 
 .menu-item > a:hover {
@@ -36,7 +37,10 @@ html, * {
     text-fill-color: transparent;    
 }
 
-.menu-item > a:hover::after {    
+.menu-item > a:hover::after {  
+    position: absolute;
+    top: 29px;
+    
     content: "";
     width: 9px;
     height: 0px;
