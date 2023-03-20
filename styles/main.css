@@ -81,6 +81,7 @@ header {
 
 .hero-section__description {
     color: #E3E4E6;    
+    font-weight: 600;
 }
 
 .hero-section__icon {
